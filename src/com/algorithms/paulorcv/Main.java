@@ -1,4 +1,4 @@
-package com.algotithms.paulorcv;
+package com.algorithms.paulorcv;
 
 public class Main {
 
