@@ -22,8 +22,6 @@
  *  [367,966 total values]
  *
  *************************************************************************/
-package com.algorithms.fundamentals;
-
 
 
 import java.util.Arrays;
