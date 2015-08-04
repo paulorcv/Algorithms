@@ -18,11 +18,14 @@ public class Tone {
         double duration = Double.parseDouble(args[1]);    // duration in seconds
 
         int N = (int) (StdAudio.SAMPLE_RATE * duration);
+        System.out.println("StdAudio.SAMPLE_RATE=" + StdAudio.SAMPLE_RATE);
+        System.out.println("N=" + N);
 
         // build sine wave with desired frequency
         double[] a = new double[N+1];
         for (int i = 0; i <= N; i++) {
             a[i] = Math.sin(2 * Math.PI * i * hz / StdAudio.SAMPLE_RATE);
+            //System.out.println("a[" + i + "]=" + a[i]);
         }
 
         // play using standard audio
