@@ -1,11 +1,16 @@
+package algorithms;
+
 /*************************************************************************
- *  Compilation:  javac RightTriangle.java
- *  Execution:    java RightTriangle
+ *  Compilation:  javac algorithms.RightTriangle.java
+ *  Execution:    java algorithms.RightTriangle
  *  Dependencies: StdDraw.java
  *
  *  Draws a right triangle and a circumscribing circle.
  *
  *************************************************************************/
+
+
+import stdlib.*;
 
 public class RightTriangle {
 

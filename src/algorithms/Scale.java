@@ -1,19 +1,20 @@
-
+package algorithms;
 /*************************************************************************
- *  Compilation:  javac Scale.java
- *  Execution:    java Scale filename w h
+ *  Compilation:  javac algorithms.Scale.java
+ *  Execution:    java algorithms.Scale filename w h
  *  Dependencies: Picture.java
  *  Data files:   http://www.cs.princeton.edu/introcs/31datatype/mandrill.jpg
  *
  *  Scales an image to w-by-h and displays both the original
  *  and the scaled version to the screen.
  *
- *  % java Scale mandrill.jpg 200 300
+ *  % java algorithms.Scale mandrill.jpg 200 300
  *
  *
  *************************************************************************/
+import stdlib.Picture;
 
-        import java.awt.Color;
+import java.awt.*;
 
 public class Scale {
     public static void main(String[] args) {

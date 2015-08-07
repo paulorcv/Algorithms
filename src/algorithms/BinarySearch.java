@@ -1,18 +1,18 @@
-/*************************************************************************
- *  Compilation:  javac BinarySearch.java
- *  Execution:    java BinarySearch whitelist.txt < input.txt
+package algorithms; /*************************************************************************
+ *  Compilation:  javac algorithms.BinarySearch.java
+ *  Execution:    java algorithms.BinarySearch whitelist.txt < input.txt
  *  Dependencies: In.java com.algorithms.stdlib.StdIn.java StdOut.java
  *  Data files:   http://algs4.cs.princeton.edu/11model/tinyW.txt
  *                http://algs4.cs.princeton.edu/11model/tinyT.txt
  *                http://algs4.cs.princeton.edu/11model/largeW.txt
  *                http://algs4.cs.princeton.edu/11model/largeT.txt
  *
- *  % java BinarySearch tinyW.txt < tinyT.txt
+ *  % java algorithms.BinarySearch tinyW.txt < tinyT.txt
  *  50
  *  99
  *  13
  *
- *  % java BinarySearch largeW.txt < largeT.txt | more
+ *  % java algorithms.BinarySearch largeW.txt < largeT.txt | more
  *  499569
  *  984875
  *  295754
@@ -24,13 +24,14 @@
  *************************************************************************/
 
 
+import stdlib.In;
+import stdlib.StdIn;
+import stdlib.StdOut;
+
 import java.util.Arrays;
 
-
-
-
 /**
- *  The <tt>BinarySearch</tt> class provides a static method for binary
+ *  The <tt>algorithms.BinarySearch</tt> class provides a static method for binary
  *  searching for an integer in a sorted array of integers.
  *  <p>
  *  The <em>rank</em> operations takes logarithmic time in the worst case.
@@ -41,6 +42,8 @@ import java.util.Arrays;
  *  @author Robert Sedgewick
  *  @author Kevin Wayne
  */
+
+
 public class BinarySearch {
 
     /**

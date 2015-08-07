@@ -1,16 +1,17 @@
-
+package algorithms;
 
 /*************************************************************************
- *  Compilation:  javac Tone.java
- *  Execution:    java Tone hz seconds
+ *  Compilation:  javac algorithms.Tone.java
+ *  Execution:    java algorithms.Tone hz seconds
  *  Dependencies: StdAudio.java
  *
  *  This program takes the frequency and duration from the command line,
  *  and plays a sine wave of the given frequency for the given duration.
  *
- *  % java Tone 440.0 1.5
+ *  % java algorithms.Tone 440.0 1.5
  *
  *************************************************************************/
+import stdlib.*;
 
 public class Tone {
     public static void main(String[] args) {

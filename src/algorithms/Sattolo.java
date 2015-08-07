@@ -1,15 +1,15 @@
-/*************************************************************************
- *  Compilation:  javac Sattolo.java
- *  Execution:    java Sattolo < list.txt
+package algorithms; /*************************************************************************
+ *  Compilation:  javac algorithms.Sattolo.java
+ *  Execution:    java algorithms.Sattolo < list.txt
  *  Dependencies: StdIn.java StdOut.java
  *  Data files:   http://algs4.cs.princeton.edu/11model/cards.txt
  *
  *  Reads in a list of strings and prints a uniformly random cycle
- *  using Sattolo's algorithm under the assumption that Math.random()
+ *  using algorithms.Sattolo's algorithm under the assumption that Math.random()
  *  generates independent and uniformly distributed numbers between
  *  0 and 1.
  *
- *  %  echo 0 1 2 3 4 | java Sattolo
+ *  %  echo 0 1 2 3 4 | java algorithms.Sattolo
  *  1
  *  2
  *  4
@@ -19,9 +19,9 @@
  *************************************************************************/
 
 /**
- *  The <tt>Sattolo</tt> class provides a client for reading in a 
+ *  The <tt>algorithms.Sattolo</tt> class provides a client for reading in a
  *  sequence of <em>N</em> strings and computing a <em>unifomly random cycle</em>
- *  if length <em>N</em> using the Sattolo's algorithm.
+ *  if length <em>N</em> using the algorithms.Sattolo's algorithm.
  *  This algorithm guarantees to produce a unifomly random cycle under
  *  the assumption that Math.random() generates independent and
  *  uniformly distributed numbers between 0 and 1.
@@ -32,6 +32,9 @@
  *  @author Robert Sedgewick
  *  @author Kevin Wayne
  */
+
+import stdlib.*;
+
 public class Sattolo {
 
     // this class should not be instantiated
