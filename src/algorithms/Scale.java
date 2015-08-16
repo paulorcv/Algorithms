@@ -13,6 +13,7 @@ package algorithms;
  *
  *************************************************************************/
 import stdlib.Picture;
+import stdlib.StdOut;
 
 import java.awt.*;
 
