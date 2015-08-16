@@ -1,29 +1,33 @@
+package algorithms;
 
 /*************************************************************************
- *  Compilation:  javac Binomial.java
- *  Execution:    java Binomial N k p
+ *  Compilation:  javac algorithms.Binomial.java
+ *  Execution:    java algorithms.Binomial N k p
  *  Dependencies: StdOut.java
  *
  *  Reads in N, k, and p as command-line arguments and prints out
  *  (N choose k) p^k (1-p)^N-k.
  *
- *  % java Binomial 5 2 .25
+ *  % java algorithms.Binomial 5 2 .25
  *  0.263671875
  *  0.263671875
  *
- *  % java Binomial 5 3 .25
+ *  % java algorithms.Binomial 5 3 .25
  *  0.087890625
  *  0.087890625
  *
- *  % java Binomial 5 0 .25
+ *  % java algorithms.Binomial 5 0 .25
  *  0.2373046875
  *  0.2373046875
  *
- *  % java Binomial 5 5 .25
+ *  % java algorithms.Binomial 5 5 .25
  *  9.765625E-4
  *  9.765625E-4
  *
  *************************************************************************/
+
+import stdlib.*;
+
 
 public class Binomial {
 

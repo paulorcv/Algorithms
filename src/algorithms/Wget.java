@@ -1,14 +1,18 @@
+package algorithms;
+
 /*************************************************************************
- *  Compilation:  javac Wget.java
- *  Execution:    java Wget url
+ *  Compilation:  javac algorithms.Wget.java
+ *  Execution:    java algorithms.Wget url
  *  Dependencies: In.java Out.java
  *
  *  Reads in a URL specified on the command line and saves its contents
  *  in a file with the given name.
  *
- *  % java Wget http://introcs.cs.princeton.edu/java/data/codes.csv
+ *  % java algorithms.Wget http://introcs.cs.princeton.edu/java/data/codes.csv
  *
  *************************************************************************/
+
+import stdlib.*;
 
 public class Wget {
 

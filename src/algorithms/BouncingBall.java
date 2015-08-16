@@ -1,13 +1,18 @@
+package algorithms;
+
 /*************************************************************************
- *  Compilation:  javac BouncingBall.java
- *  Execution:    java BouncingBall
+ *  Compilation:  javac algorithms.BouncingBall.java
+ *  Execution:    java algorithms.BouncingBall
  *  Dependencies: StdDraw.java
  *
  *  Implementation of a 2-d bouncing ball in the box from (-1, -1) to (1, 1).
  *
- *  % java BouncingBall
+ *  % java algorithms.BouncingBall
  *
  *************************************************************************/
+
+
+import stdlib.*;
 
 public class BouncingBall {
     public static void main(String[] args) {

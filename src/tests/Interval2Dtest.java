@@ -1,4 +1,4 @@
-package com.algorithms;
+package tests;
 
 /**
  * Created by paulorcv on 16/08/15.

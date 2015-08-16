@@ -1,12 +1,12 @@
-
+package algorithms;
 /*************************************************************************
- *  Compilation:  javac RandomSeq.java
- *  Execution:    java RandomSeq N lo hi
+ *  Compilation:  javac algorithms.RandomSeq.java
+ *  Execution:    java algorithms.RandomSeq N lo hi
  *  Dependencies: StdOut.java
  *
  *  Prints N numbers between lo and hi.
  *
- *  % java RandomSeq 5 100.0 200.0
+ *  % java algorithms.RandomSeq 5 100.0 200.0
  *  123.43
  *  153.13
  *  144.38
@@ -16,7 +16,7 @@
  *************************************************************************/
 
 /**
- *  The <tt>RandomSeq</tt> class is a client that prints out a pseudorandom
+ *  The <tt>algorithms.RandomSeq</tt> class is a client that prints out a pseudorandom
  *  sequence of real numbers in a given range.
  *  <p>
  *  For additional documentation, see <a href="http://algs4.cs.princeton.edu/11model">Section 1.1</a> of
@@ -25,6 +25,10 @@
  *  @author Robert Sedgewick
  *  @author Kevin Wayne
  */
+
+
+import stdlib.*;
+
 public class RandomSeq {
 
     // this class should not be instantiated
@@ -40,7 +44,7 @@ public class RandomSeq {
         // command-line arguments
         int N = Integer.parseInt(args[0]);
 
-        // for backward compatibility with Intro to Programming in Java version of RandomSeq
+        // for backward compatibility with Intro to Programming in Java version of algorithms.RandomSeq
         if (args.length == 1) {
             // generate and print N numbers between 0.0 and 1.0
             for (int i = 0; i < N; i++) {
